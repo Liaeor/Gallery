@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*top of page*/
+.top{
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+	background-color:#FEFAE8;
+	border-bottom: 5px solid orangered;
+}
+
+.topul{
+	list-style: none;
+	width:395px;
+	height:25px;
+	float: right;
+	text-align: center;
+	background-image: url(../img/topmenu_bg.jpg);
+	
+}
+
+.topimg{
+	float: left;
+}
+
+.topli{
+	display: inline-block;	
+}
+
+.topa{
+	text-decoration: none;
+	color: gray;
+	font:  12px "微软雅黑";	
+}
+
+.topa:hover{
+	color: orangered;
+}
+
+.topul2{
+	list-style: none;
+	width: 657px;
+	height: 41px;
+	margin-top: 35px;
+	float: right;
+}
+
+#topli22{
+	background-image: url(../img/menu_hover.jpg);
+}
+
+.topli2{
+	width: 87px;
+	height: 41px;
+	text-align: center;
+	line-height: 41px;
+	display: inline-block;
+	background-image: url(../img/menu.jpg);
+}
+
+.topa2{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.topli2:hover{
+	background-image: url(../img/menu_hover.jpg);
+}
+
+
+/*mid of page*/
+.middle{
+	width:  900px;
+	height: 270px;
+	margin: 0 auto;
+	margin-top: 3%;
+/*	border:  1px solid red;*/
+}
+
+.middle_table{
+	width: 560px;
+	height: 120px;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	border-radius: calc(10px);
+}
+
+.middle_td1{
+	height: 35px;
+	text-align: right;
+}
+
+#input1{
+	float: left;
+	margin-top: 2%;
+}
+
+#submit1{
+	width: 73px;
+	height: 35px;
+	float: left;
+	background-image: url(../img/orderquery_button.gif);
+	border-width: 0px;
+	
+}
+
+.a1{
+	color: red;
+	text-decoration: none;
+}
+
+.a1:hover{
+	text-decoration: underline;
+}
+
+.a2{
+	color: blue;
+	text-decoration: none;
+}
+
+.a2:hover{
+	text-decoration: underline;
+}
+
+.a3{
+	color: green;
+	text-decoration: none;
+}
+
+.a3:hover{
+	text-decoration: underline;
+}
+
+.middle_table1{
+	width: 818px;
+	font-size: 15px;
+	text-align: center;
+	font-family: "微软雅黑";
+	border-radius: calc(10px);
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.middle_table1 tr{
+	height: 30px;
+}
+
+/*bottom of page*/
+.bottom{
+	width: 900px;
+	height: 112px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: small;
+	border-top: 5px solid gold;
+}
+
+.bottom_ul{
+	list-style: none;
+	height: auto;
+}
+
+.bottom_li{
+	display: inline;
+}
+       
+ .bottom_a{
+ 	text-decoration: none;
+ 	color: gray;
+ }
+ 
+ .bottom_a:hover{
+ 	color: gold;
+ }

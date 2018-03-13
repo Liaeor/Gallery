@@ -1,0 +1,271 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*top of page*/
+.top{
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+	background-color:#FEFAE8;
+	border-bottom: 5px solid orangered;
+}
+
+.topul{
+	list-style: none;
+	width:395px;
+	height:25px;
+	float: right;
+	text-align: center;
+	background-image: url(../img/topmenu_bg.jpg);
+	
+}
+
+.topimg{
+	float: left;
+}
+
+.topli{
+	display: inline-block;	
+}
+
+.topa{
+	text-decoration: none;
+	color: gray;
+	font:  12px "微软雅黑";	
+}
+
+.topa:hover{
+	color: orangered;
+}
+
+.topul2{
+	list-style: none;
+	width: 657px;
+	height: 41px;
+	margin-top: 35px;
+	float: right;
+}
+
+#topli22{
+	background-image: url(../img/menu_hover.jpg);
+}
+
+.topli2{
+	width: 87px;
+	height: 41px;
+	text-align: center;
+	line-height: 41px;
+	display: inline-block;
+	background-image: url(../img/menu.jpg);
+}
+
+.topa2{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.topli2:hover{
+	background-image: url(../img/menu_hover.jpg);
+}
+
+/*mid of page*/
+.middle{
+	width:  900px;
+	height: 626px;
+	margin: 0 auto;
+	margin-top: 1%;
+}
+
+.middle_left{
+	width: 630px;
+	height: 616px;
+	border: 1px solid orangered ;
+	float: left ;
+	border-radius: calc(10px);
+}
+
+.middle_left_div{
+	width: 280px;
+	height: 178px;   
+	float: left;
+	margin-top: 2%;
+	margin-left: 3%;
+}
+ 
+
+.middle_left_td{
+	vertical-align: top;
+	font-size: 8px;
+}
+
+.middle_left_img1{
+	width: 160px;
+	height: 140px;
+	border:1px solid black;	
+}
+
+.middle_left_img2{
+	margin-left: 40px;
+}
+
+.middle_bottom_div{
+	display: inline-block;
+	/*text-align: center;*/
+	margin-left: 41%;
+	margin-top: 2%;
+}
+
+.middle_bottom_a{
+	padding: 5px;
+	text-decoration: none;
+	border: 1px solid orangered;
+	border-radius: calc(8px);
+	font-weight: 900;
+	font-size: 10px;
+	background-color: pink;
+	color: #8080F6;
+}
+
+.middle_bottom_a:hover{
+	color: gray;
+}
+
+.middle_right{
+	width: 26%;
+	height:618px;
+	float: right;
+}
+
+
+.middle_right_top{
+    height: 93px;
+    border: 1px solid orangered;
+    border-radius:calc(10px);
+    background-image: url(../img/bg.jpg);
+}
+
+.middle_right_top_div{
+	height: 32px;
+	margin-top:8px ;
+	margin-left: 52px;
+	font-size: 20px;
+	color: orange;
+}
+
+.middle_right_top_a1{
+	display: inline;
+	margin-left: 24%;
+	text-decoration: none;
+	font-size: small;
+	color: black;
+}
+
+.middle_right_top_li{
+	margin-left: 20px;
+	margin-top: 8px;
+	list-style:url(../img/43.gif);
+	font-size: small;	
+}
+
+.middle_right_top_a2{
+	text-decoration: none;
+	color: black;
+}
+
+.middle_right_top_a2:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+
+.middle_right_middle{ 
+	height: 100px;
+	margin-top: 20px; 
+	border: 1px solid orangered; 
+	border-radius:calc(10px);
+	background-image: url(../img/dingcanche.jpg);
+}
+
+.middle_right_middle_div{
+	height: 32px;
+	margin-top:14px ;
+	margin-left: 52px;
+	font-size: 20px;
+	color: orange;
+}
+
+.middle_right_middle_a1{
+	display: inline;
+	margin-left: 24%;
+	text-decoration: none;
+	font-size: small;
+	color: black;
+}
+
+.middle_right_middle_table{
+	background-color: pink;
+	width: 234px;
+    font-size: small;
+}
+
+.middle_right_middle_table_td{
+	text-align: center;
+	width: 33%;
+}
+
+.middle_right_middle_div2{
+	margin-left: 82px;
+}
+
+.middle_right_bottom{ 
+	height: 190px;
+	margin-top: 20px; 
+	border: 1px solid orangered; 
+	border-radius:calc(10px);
+	background-image: url(../img/dingcanweekmenu.jpg);
+}
+
+.middle_right_bottom_div1{
+	height: 32px;
+	margin-top:14px ;
+	margin-left: 52px;
+	font-size: 20px;
+	color: orange;
+}
+
+.middle_right_bottom_div2{
+	float: right;
+}
+
+/*bottom of page*/
+.bottom{
+	width: 900px;
+	height: 112px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: small;
+	border-top: 5px solid gold;
+}
+
+.bottom_ul{
+	list-style: none;
+	height: auto;
+}
+
+.bottom_li{
+	display: inline;
+}
+       
+ .bottom_a{
+ 	text-decoration: none;
+ 	color: gray;
+ }
+ 
+ .bottom_a:hover{
+ 	color: gold;
+ }

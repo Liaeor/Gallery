@@ -1,0 +1,430 @@
+body,html{ height: 100%; }
+body{ color: #000; background: #fff; }
+
+/*content*/
+	h2{
+		font-size: 2em;
+		line-height: 2em;
+		font-family: 'verdana',sans-serif;
+	}
+
+	.bar{
+		width: 100%; height: 3px;
+		background: #a0a0a0;
+	}
+
+	.clear{
+		clear: both;
+	}
+
+/* introduce */
+	#introduce{ 
+		width: 100%; height: 600px;
+		background: #eeeeee;
+		position: relative;
+	}
+
+    .container1{
+		width: 800px;
+		height: 480px;
+		box-shadow: 0 1px 3px rgba(0,0,0,.1);
+		background-color: #fff;
+		/*border: 1px solid red;*/
+		position: relative;
+		left: 50%;
+		top: 60px;
+		margin-left: -460px;
+		padding: 60px 60px 0px 60px;
+    }
+
+	.photo{
+		width: 180px; height: 180px;
+		position: absolute;
+		left: 60%;
+		top: 60%;
+		margin-top: -160px;
+
+	}
+	.photo>img{
+		width: 100%; height: 100%;
+		border-radius: 10px;
+		box-shadow: 0 0 55px #777;
+	}
+	.introduceInfo{
+		width: 100%; height: 100%;
+		position: absolute;
+		top: 0; right: 0;
+	}
+	.content{ 
+		width: 100%; height: 100%;
+		color: #333;
+	}
+
+	.info{
+		width: 50%;
+		height: auto;
+		margin-left: 10%;
+	}
+
+	.content li{
+		height: 30px;
+		font-size: 14px;
+		line-height: 30px;
+	}
+
+	.self{
+		width: 80%;
+		margin: 5% auto;
+	}
+
+	.more{
+		width: 170px; height: 50px;
+		line-height: 50px;
+		background: #a0a0a0;
+		border: 1px solid #a0a0a0;
+		color: #f2f2f2;
+		font-size: 16px; 
+		text-align: center;
+		cursor: pointer;
+		transition: 0.5s ease;
+		position: relative;
+		left: 50%;
+		margin-left: -85px;
+	}
+	.more:hover{
+		background: #fff;
+		color: #434343;
+	}
+
+/* introduce end */
+
+/* skill */
+	#skill{
+		width: 100%; height: 600px;
+		/*color: #fff;*/
+		background-color: #eeeeee;
+		/*text-align: center;*/
+	}
+
+	.container2{
+		width: 800px;
+		height: 540px;
+		box-shadow: 0 1px 3px rgba(0,0,0,.1);
+		background-color: #fff;
+		/*border: 1px solid red;*/
+		position: relative;
+		left: 50%;
+		margin-left: -460px;
+		padding: 60px 60px 0px 60px;
+	}
+
+	.skillContent{
+		width: 93%;
+		margin: 0 auto;
+		/*padding: 60px 0;*/
+		text-align: left;
+	}
+	.skillContent li{
+		margin-top: 20px;
+	}
+	.skillContent li span{
+		display: block;
+		height: 25px; width: 0;
+		background: #434343;
+		margin: 15px 28px;
+		transition: all 0.7s ease;
+		color: #ffffff;
+		text-align: right;
+		line-height: 25px;
+	}
+    /*700 = 100% */
+	#skill:hover .skillContent li:nth-of-type(1) span{
+		width: 630px;
+	}
+	#skill:hover .skillContent li:nth-of-type(2) span{
+		width: 560px;
+	}
+	#skill:hover .skillContent li:nth-child(3) span{
+		width: 420px;
+	}
+	#skill:hover .skillContent li:nth-child(4) span{
+		width: 420px;
+	}
+
+/* skill end */
+
+/* eduction */
+	#eduction{ 
+		width: 100%;
+		/*height: 460px;*/
+		background: #eeeeee;
+	}
+
+	.container3{
+		width: 800px;
+		/*height: 460px;*/
+		box-shadow: 0 1px 3px rgba(0,0,0,.1);
+		background-color: #fff;
+		/*border: 1px solid red;*/
+		position: relative;
+		left: 50%;
+		margin-left: -460px;
+		padding: 0px 60px;
+		overflow: auto;
+	}
+
+	.edu_ul{
+		width: 93%;
+		margin: 0 auto;
+	}
+
+	.edu_left{
+		width: 48%;
+		height: 66px;
+		float: left;
+	}
+
+/* eduction end*/
+
+/*award*/
+   #award{
+	   width: 100%; height: 340px;
+	   background-color: #eeeeee;
+   }
+
+   .container4{
+	   width: 800px;
+	   height: 340px;
+	   box-shadow: 0 1px 3px rgba(0,0,0,.1);
+	   background-color: #fff;
+	   /*border: 1px solid red;*/
+	   position: relative;
+	   left: 50%;
+	   margin-left: -460px;
+	   padding:  0px 60px;
+   }
+
+	.honor{
+		 width: 93%;
+		 margin: 0 auto;
+		 line-height: 20px;
+	 }
+/*award end*/
+
+/* production */
+	#production{
+		width: 100%;height: auto;
+		background: #eeeeee;
+	}
+
+	.container5{
+		width: 800px;
+		height: 160px;
+		box-shadow: 0 1px 3px rgba(0,0,0,.1);
+		background-color: #fff;
+		position: relative;
+		left: 50%;
+		margin-left: -460px;
+		padding: 0px 60px;
+	}
+
+	.item{
+		width: 93%;
+		margin: 0 auto;
+	}
+
+	.item a{
+		color: red;
+	}
+
+	/*#production .list{
+		width: 420px;
+		overflow: hidden;
+		margin: 50px auto;
+	}
+	#production .list li{
+		float: left;
+		margin-right: 10px;
+	}
+	#production .list li a{
+		font-size: 20px;
+		padding: 0 15px;
+		color: #718a80;
+	}
+	#production .list li a:hover{
+		color: #f2f2f2;
+	}
+	#production .list li a.active{
+		color: #fff;
+	}
+	#production .proContent{
+		width: 100%; height: 400px;
+		background: #fff;
+
+	}
+	.proContent .images{
+		display: none;
+	}
+	.proContent .show{
+		display: block;
+	}
+	.proContent a{
+		display: block;
+		width: 49%; height: 350px;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		margin-top: 60px;
+	}
+	.proContent a>img{
+		width: 100%; height: 100%;
+	}
+	.proContent a:nth-child(2){
+		float: right;
+	}
+	.proContent .lay{
+		width: 100%; height: 100%;
+		text-align: center;
+		background: rgba(33,33,33,0.7);
+		position: absolute;
+		left: 0; top: -100%;
+		transition: 0.3s ease;
+	}
+	.proContent .lay span{
+		display: block;
+		width: 50px; height: 50px;
+		background: #399ef8 url("../images/link.png") no-repeat center center;
+		border-radius: 50%;
+		position: absolute;
+		left: 50%; top: 50%;
+		margin-left: -25px;
+		margin-top: -25px;
+	}
+	.proContent .lay p{
+		color: #fff;
+		font-size: 14px;
+		margin-top: 260px;
+	}
+	.proContent a:hover .lay{
+		top:0;
+	}
+	.proContent .douban a{
+		width: 425px;
+		float: left;
+	}
+	.proContent .douban a:nth-child(3){
+		float: right;
+	}
+	.proContent .douban a:nth-child(2){
+		margin-left: 35px;
+		margin-right: 35px;
+	}*/
+/* production end*/
+
+
+/* contact */
+	#contact{
+		width: 100%; height: 600px;
+		background: #eeeeee;
+		text-align: center;
+		/*color: #555;*/
+	}
+
+	.container6{
+		width: 800px;
+		height: 540px;
+		box-shadow: 0 1px 3px rgba(0,0,0,.1);
+		background-color: #fff;
+		position: relative;
+		left: 50%;
+		margin-left: -460px;
+		padding: 60px 60px 0px 60px;
+	}
+
+	#contact .bar{
+		width: 0;
+		margin: 10px auto;
+		transition: all 0.6s ease;
+	}
+	#contact:hover .bar{
+		width: 60%;
+	}
+	.contactContent{
+		width: 100%; height: 400px;
+	}
+	.contactLeft{
+		width: 40%; height: 100%;
+		overflow: hidden;
+		float: left;
+	}
+	.contactLeft dl{
+		width: 230px;
+		margin: 70px auto;
+		text-align: left;
+	}
+	.contactLeft dt{
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 40px;
+	}
+	.contactLeft dd{
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.contactLeft dd span{
+		display: inline-block;
+		width: 20px; height: 20px;
+	}
+	.contactLeft dd span img{
+		width: 100%; height: 100%;
+	}
+	.contactRight{
+		width: 59%; height: 100%;
+		padding-top: 70px;
+		text-align: left;
+		box-sizing: border-box;
+		padding-left: 150px;
+		float: right;
+	}
+	.contactRight p{
+		margin-top: 12px;
+	}
+	.contactRight h1{
+		font-size: 2em;
+	}
+	.contactRight input[type=text]{
+		height: 30px; width: 300px;
+		border: 1px solid #a0a0a0;
+		background: #eeeeee;
+		text-indent: 1em;
+	}
+	.contactRight input.text{
+		height: 100px;
+	}
+	.contactRight input[type=button]{
+		height: 45px; width: 110px;
+		border: 1px solid #a0a0a0;
+		background: #434343;
+		color: #ffffff;
+		font-size: 18px;
+		cursor: pointer;
+		margin-left: 190px;
+		transition: 0.5s ease;
+	}
+	.contactRight input[type=button]:hover{
+		background: #ffffff;
+		color: #434343;
+	}
+/* contact end*/
+
+
+/* footer */
+	footer{
+		width: 100%; height: 100px;
+		background-color: #eeeeee;
+		text-align: center;
+		font-size: 20px;
+		line-height: 100px;
+	}
+
+/* footer end*/
